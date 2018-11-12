@@ -27,9 +27,9 @@
   <input type="button" value="あいさつ" onclick="sayhello67();">
   <input type="button" value="太郎" onclick="someone('太郎');">
   <input type="button" value="花子" onclick="someone('花子');">
-  <input type="button" value="レイ" onclick="someone(レイ);">
-  <input type="button" value="シンジ" onclick="someone(シンジ);">
-  <input type="button" value="アスカ" onclick="someone(アスカ);">
+  <input type="button" value="レイ" onclick="someone('レイ');">
+  <input type="button" value="シンジ" onclick="someone('シンジ');">
+  <input type="button" value="アスカ" onclick="someone('アスカ');">
   
   <h1>
     JavaScriptによる変更の練習68
@@ -44,6 +44,15 @@
   </h1>
   <div id="txt1">
     <input type="button"value="テキストの変更"
+           onclick="txtchange1();">
+    城西大学
+  </div>
+  <div id="image1">
+    <input type="button"value="画像の変更"
+           onclick="imgchange1();">
+    <img src='./image/jurogo.JPG'id="logo"alt="JosaiLogo">
+    <input type="button"value="元に戻す"
+           onclick="imgchange2();">
   </div>
   
   <h1>タイマーイベントによる実行6-10</h1>
